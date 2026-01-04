@@ -13,7 +13,7 @@ It's built with modern tech (Next.js, React, Tailwind, MongoDB) and designed to 
 
 ## How To Use
 
-1. Go to [JobTrackr](https://jobtrackr-xabiso.vercel.app/)  
+1. Go to [JobTrackr](https://jobtrackr-xabiso.vercel.app/) / `https://jobtrackr-xabiso.vercel.app`
 2. Sign in with **Google OAuth** or **Email OTP**  
 3. Complete onboarding (name, email tracking preferences)
 4. Authorize Gmail to let the app read your emails
@@ -102,3 +102,8 @@ This is a full-stack project I built to solve my own problem — keeping track o
 ---
 
 **Built to make job hunting less stressful.**
+
+## Why No Source Code?
+
+This project processes real Gmail data and contains credentials/API keys. 
+Instead, the live demo and YouTube walkthrough showcase the full functionality.
