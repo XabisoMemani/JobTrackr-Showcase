@@ -14,14 +14,30 @@ It's built with modern tech (Next.js, React, Tailwind, MongoDB) and designed to 
 ## How To Use
 
 1. Go to [JobTrackr](https://jobtrackr-xabiso.vercel.app/) / `https://jobtrackr-xabiso.vercel.app`
-2. Sign in with **Google OAuth** or **Email OTP**  
+2. Sign in with **Google OAuth** or **Email OTP**
 3. Complete onboarding (name, email tracking preferences)
 4. Authorize Gmail to let the app read your emails
 5. The app automatically pulls application notifications and extracts details
 6. View your dashboard with KPIs, recent applications, and trends
-7. Edit, add, or delete applications manually if needed 
+7. Edit, add, or delete applications manually if needed
 
 A **YouTube demo video** is coming soon to walk you through the experience.
+
+## Screenshots
+
+### Landing Page
+
+![JobTrackr Landing Page](images/landing-page.png)
+
+### Dashboard
+
+![JobTrackr Dashboard](images/dashboard.png)
+
+### Insights
+
+![JobTrackr Insights Page](images/insights-page.png)
+
+**[View it yourself](https://jobtrackr-xabiso.vercel.app/)** — Try the live app to see these screens in action.
 
 ## Tech Stack
 
@@ -81,8 +97,8 @@ JobTrackr is built with security as a priority. Here's what protects your data:
 
 ### Protected Against
 
-| Attack Type                       | Protection                                |
-| --------------------------------- | ----------------------------------------- |
+| Attack Type                       | Protection                             |
+| --------------------------------- | -------------------------------------- |
 | SQL Injection                     | MongoDB (NoSQL) + Mongoose ODM         |
 | XSS (Cross-Site Scripting)        | HTML sanitization on all outputs       |
 | CSRF (Cross-Site Request Forgery) | SameSite cookies + OAuth state         |
@@ -105,5 +121,5 @@ This is a full-stack project I built to solve my own problem — keeping track o
 
 ## Why No Source Code?
 
-This project processes real Gmail data and contains credentials/API keys. 
+This project processes real Gmail data and contains credentials/API keys.
 Instead, the live demo and YouTube walkthrough showcase the full functionality.
